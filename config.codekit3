@@ -5099,6 +5099,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/wp-content\/themes\/simsimma\/assets\/img\/Sim_Simma_Press_1.JPG": {
+		"ft": 16384,
+		"iS": 7622732,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/simsimma\/assets\/img\/Sim_Simma_Press_1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"\/wp-content\/themes\/simsimma\/assets\/img\/tahira.png": {
 		"ft": 32768,
 		"iS": 9032385,
@@ -5109,6 +5120,13 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
+		},
+	"\/wp-content\/themes\/simsimma\/content.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/simsimma\/content.php",
+		"oF": 0
 		},
 	"\/wp-content\/themes\/simsimma\/css\/app-min.css": {
 		"aP": 1,
@@ -5139,6 +5157,20 @@
 		"oAP": "\/wp-content\/themes\/simsimma\/css\/styles-min.css",
 		"oF": 0,
 		"oS": 3
+		},
+	"\/wp-content\/themes\/simsimma\/footer.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/simsimma\/footer.php",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/simsimma\/header.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/simsimma\/header.php",
+		"oF": 0
 		},
 	"\/wp-content\/themes\/simsimma\/index.php": {
 		"cB": 0,
@@ -5208,6 +5240,13 @@
 		"oO": 0,
 		"oS": 1
 		},
+	"\/wp-content\/themes\/simsimma\/page.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/simsimma\/page.php",
+		"oF": 0
+		},
 	"\/wp-content\/themes\/simsimma\/scss\/_settings.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -5247,6 +5286,20 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/wp-content\/themes\/simsimma\/sidebar.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/simsimma\/sidebar.php",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/simsimma\/single.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/simsimma\/single.php",
+		"oF": 0
+		},
 	"\/wp-content\/themes\/simsimma\/style.css": {
 		"aP": 1,
 		"bl": 0,
@@ -5256,6 +5309,20 @@
 		"oAP": "\/wp-content\/themes\/simsimma\/style-min.css",
 		"oF": 0,
 		"oS": 3
+		},
+	"\/wp-content\/themes\/simsimma\/testarchive.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/simsimma\/testarchive.php",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/simsimma\/testfront-page.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/simsimma\/testfront-page.php",
+		"oF": 0
 		},
 	"\/wp-content\/themes\/twentyfifteen\/404.php": {
 		"cB": 0,
