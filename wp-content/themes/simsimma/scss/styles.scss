@@ -1,0 +1,396 @@
+/* 
+
+----------------------------------------
+
+SIM SIMMA
+
+- Frankie Grimes 2018
+
+
+----------------------------------------
+ */
+
+
+
+
+
+
+
+
+/* 
+----------------------------------------
+FONT IMPORTS
+----------------------------------------
+ */
+
+
+ @font-face {
+     font-family: 'P22 Underground Book';
+     src: url('../assets/fonts/P22UndergroundPro-Book.woff') format('woff'),
+         url('../assets/fonts/P22UndergroundPro-Book.ttf') format('truetype');
+     font-weight: normal;
+     font-style: normal;
+ }
+
+ @font-face {
+     font-family: 'P22 Underground Heavy';
+     src: url('../assets/fonts/P22UndergroundPro-Heavy.woff') format('woff'),
+         url('../assets/fonts/P22UndergroundPro-Heavy.ttf') format('truetype');
+     font-weight: 900;
+     font-style: normal;
+ }
+
+
+/* 
+----------------------------------------
+COLOUR VARIABLES
+----------------------------------------
+
+*/
+
+
+$blue: #333399;
+$lightblue: #4747a3;
+$darkblue: #1e1e5b;
+$lightgrey: #9F9F9F;
+$yellow: #FFD166;
+$pink: #D36582;
+$green: #1B998B;
+$orange: #FFAC81;
+
+
+
+
+
+
+
+
+/* 
+----------------------------------------
+TYPOGRAPHY
+----------------------------------------
+ */
+
+/* LANDING PAGE LOGO */
+
+h1 {
+	font-family: 'P22 Underground Heavy';
+	font-size: 3rem;
+}
+
+/* SECTION TITLES */
+
+h2 {
+	font-family: 'P22 Underground Heavy';
+}
+
+/* ARTICLE PREVIEW TITLES */
+
+h3 {
+		font-family: 'P22 Underground Heavy';
+		font-size: 1.3rem;
+		color: white;
+		padding: 0.2rem 0.5rem;
+}
+
+/* PREVIEW CATEGORIES */
+
+h4 {
+		font-family: 'P22 Underground Heavy';
+		font-size: 1rem;
+		color: red;
+				padding: 0.3rem 0rem 0rem 0.5rem;
+}
+
+
+/* 
+----------------------------------------
+MEDIA QUERIES
+----------------------------------------
+ */
+
+/* SMALL ONLY */
+
+@media screen and (max-width: 39.9375em) {
+
+
+	.underline {
+			min-width: 3rem;
+	max-width: 4.5rem;
+	}
+}
+
+
+/* MEDIUM AND UP */
+
+@media screen and (min-width: 40em) {
+
+	h1 {
+		font-size: 6rem;
+	}
+
+	.underline {
+
+	min-width: 8rem;
+	max-width: 20rem;
+
+}
+}
+
+/* LARGE AND UP */
+
+@media screen and (min-width: 64em) {
+
+	h1 {
+		font-size: 10rem;
+	}
+
+
+}
+
+/* 
+----------------------------------------
+UTILITY
+----------------------------------------
+ */
+
+
+
+.white {
+	color: white;
+}
+
+.flex {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.thumbnail {
+	border: none;
+	box-shadow: none;
+}
+
+
+.block {
+	padding-top: 10rem;
+
+}
+
+.flex-top {
+	align-self: flex-start;
+}
+
+.flex-bottom {
+	align-self: flex-end;
+}
+
+.underline {
+	border-bottom: 2px solid black;
+	width: 100%;
+	margin-bottom: 2rem;
+
+}
+
+/* 
+----------------------------------------
+NAVIGATION
+----------------------------------------
+ */
+
+ .top-bar 
+
+
+.top-bar-right ul li a {
+	font-family: 'P22 Underground Book';
+	color: black;
+}
+
+.top-bar-right ul li a:hover {
+	color: $lightgrey;
+}
+
+
+
+
+@media screen and (min-width: 40em) {
+    .top-bar, .top-bar ul {
+    background-color: rgba(255,255,255,0);
+    
+
+}
+}
+
+
+.menu-text img {
+	height: 3rem;
+}
+
+
+/* 
+----------------------------------------
+MAIN CONTENT 
+----------------------------------------*/
+
+
+/* 
+----------------------------------------
+LANDING
+----------------------------------------*/
+
+
+.landing {
+	background-color: $yellow;
+	margin-top: -10rem;
+	 min-height: 110vh;
+}
+
+
+.landing-logo {
+ color: white;
+ min-height: 80vh;
+
+}
+
+.landing-logo h1 {
+
+}
+/* 
+----------------------------------------
+MAIN
+----------------------------------------*/
+
+
+.main {
+	min-height: 100vh;
+}
+
+.box {
+	margin: 0;
+
+
+}
+
+.overlay {
+	position: relative;
+	margin-top: -8rem;
+	background-color: rgba(40,40,40,0.8);
+	padding-top: 1rem;
+}
+
+.category {
+	background-color: white;
+	max-width: 4rem; 
+	margin-left: 1rem;
+
+}
+
+.title {
+	max-width: 15rem;
+	text-transform: uppercase;
+}
+
+
+.news, .events, .about {
+	margin-bottom: 5rem;
+}
+
+.event-overlay {
+	position: relative;
+	margin-top: -8rem;
+		background-color: rgba(40,40,40,0.8);
+	padding: 1rem; 
+	
+}
+
+.event-title {
+
+	max-width: 15rem;
+	margin-left: 0.5rem;
+
+}
+
+.about-overlay {
+	position: relative;
+	margin-top: -7.7rem;
+	background-color: white;
+	margin-bottom: 5rem;
+	max-width: 50%;
+	margin-left: 1rem;
+}
+
+.about-title {
+	max-width: 15rem;
+	margin-left: 0.5rem;
+	margin-bottom: 4rem;
+}
+
+/* 
+---------------------------------------- 
+FOOTER
+---------------------------------------- */
+
+footer {
+
+}
+
+.footer-light {
+    background-color: $lightgrey;
+
+
+}
+
+.footer-light .cell {
+    text-align: center;
+}
+
+.footer-light .thumbnail {
+    box-shadow: none;
+    border: none;
+    padding: 1rem;
+
+
+}
+
+.footer-light .line {
+	background-color: black;
+	width: 100%;
+	height: 1px;
+}
+
+.footer-light .social-icons .thumbnail {
+	    max-height: 4rem;
+}
+
+.footer-light .footer-logo .thumbnail {
+	max-height: 5rem;
+}
+
+.footer-dark {
+    padding: 2rem;
+    background-color: #272727;
+    
+}
+
+.footer-black {
+    background-color: black;
+
+}
+
+.footer-black p {
+    padding-top: 1rem;
+    padding-right: 1rem;
+    font-size: 0.7rem;
+}
+
+
+
+footer a {
+    font-family: 'Proxima Nova';
+    color: white;
+    font-size: 0.8rem;
+}
+
+footer .menu a:hover {
+    color: $lightgrey;
+}
