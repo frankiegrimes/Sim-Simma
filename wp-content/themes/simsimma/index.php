@@ -21,6 +21,9 @@
 
 	    
 
+	     
+
+<div class="block"></div>
 
 
    <?php get_footer(); ?>

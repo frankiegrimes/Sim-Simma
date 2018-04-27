@@ -4955,6 +4955,13 @@
 		"oAP": "\/wp-content\/themes\/index.php",
 		"oF": 0
 		},
+	"\/wp-content\/themes\/simsimma\/archive.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/simsimma\/archive.php",
+		"oF": 0
+		},
 	"\/wp-content\/themes\/simsimma\/assets\/fonts\/P22UndergroundPro-Book.ttf": {
 		"cB": 0,
 		"ft": 8192,
@@ -5165,6 +5172,20 @@
 		"oAP": "\/wp-content\/themes\/simsimma\/footer.php",
 		"oF": 0
 		},
+	"\/wp-content\/themes\/simsimma\/front-page.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/simsimma\/front-page.php",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/simsimma\/functions.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/simsimma\/functions.php",
+		"oF": 0
+		},
 	"\/wp-content\/themes\/simsimma\/header.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -5309,20 +5330,6 @@
 		"oAP": "\/wp-content\/themes\/simsimma\/style-min.css",
 		"oF": 0,
 		"oS": 3
-		},
-	"\/wp-content\/themes\/simsimma\/testarchive.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/wp-content\/themes\/simsimma\/testarchive.php",
-		"oF": 0
-		},
-	"\/wp-content\/themes\/simsimma\/testfront-page.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/wp-content\/themes\/simsimma\/testfront-page.php",
-		"oF": 0
 		},
 	"\/wp-content\/themes\/twentyfifteen\/404.php": {
 		"cB": 0,

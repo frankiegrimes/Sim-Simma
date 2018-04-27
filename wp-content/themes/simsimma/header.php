@@ -5,8 +5,6 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sim Simma</title>
-    <link rel="stylesheet" href="wp-content/themes/simsimma/css/app.css">
-    <link rel="stylesheet" href="wp-content/themes/simsimma/css/styles.css">
     <?php wp_head(); ?>
   </head>
   <body>
